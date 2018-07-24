@@ -1,0 +1,58 @@
+.app {
+    font-family: Circular, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.app-header {
+    padding: 10px 10px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.app-title {
+    font-size: 20px;
+}
+
+.posts-container--saved {
+
+}
+
+.posts-container--main {
+
+}
+
+.posts-container__header {
+    height: 20px;
+    padding: 0 10px;
+    background-color: rgb(228, 228, 228);
+}
+
+.post-row {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.post-row:hover {
+    background-color: #ecf0f7;
+}
+
+.post-row__count {
+    color: #b6b6b6;
+    width: 20px;
+    align-self: center;
+}
+
+.post-row__save {
+    color: #b6b6b6;
+    padding: 10px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.post-row__thumb-container {
+    padding: 0 5px;
+}
+
+.post-row__thumb {
+    width: 60px;
+    height: auto;
+}
